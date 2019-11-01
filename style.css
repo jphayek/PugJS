@@ -1,11 +1,13 @@
 body {
 	margin: 0;
 	height: 100vh;
+	font-family: sans-serif;
 }
 
 nav {
 	display: flex;
 	justify-content: space-around;
+	background-color: white;
 }
 
 h2.title {
@@ -13,13 +15,129 @@ h2.title {
 }
 
 nav input[type=text] {
-	width: 300px;
+	width: 600px;
 	height: 35px;
-	border: 1px solid yellow;
+	border: 2px solid yellow;
 	border-radius: 50px;
 	padding: 10px 10px 10px 10px;
 }
 
 input[type=text]::placeholder {
 	color: black;
+	padding-left: 10px;
+	font-size: 15px;
+}
+
+.NavBar-title {
+	display: flex;
+	width: 100px;
+}
+
+h2.title-point {
+	color: #f8d949;
+	font-size: 30px;
+}
+
+.container-sous-nav {
+	height: 70vh;
+	background-image: url("background.jpg");
+	background-color: #f7f7f7;
+	background-size: 100%;
+}
+
+.sous-nav-title {
+	display: flex;
+	justify-content: center;
+	margin-left: 30%;
+}
+h2.sous-nav-title2 {
+	font-size: 50px;
+	color: wheat;
+	position: relative;
+	top: 100px;
+}
+
+h3.sous-nav-subtitle {
+	font-size: 30px;
+	color: wheat;
+	position: relative;
+	top: 190px;
+	right: 390px;
+}
+
+h4.subtitle-sous-nav {
+	position: relative;
+	font-size: 25px;
+	right: 59%;
+	top: 225px;
+}
+
+h4.currency-sous-nav {
+	position: relative;
+	font-size: 35px;
+	right: 60%;
+	top: 240px;
+}
+
+h4.currency2-sous-nav {
+	position: relative;
+	font-size: 45px;
+	right: 60%;
+	top: 250px;
+}
+
+h4.currency3-sous-nav {
+	position: relative;
+	font-size: 35px;
+	right: 60%;
+	top: 240px;
+}
+
+button[type="submit"] {
+	position: absolute;
+	width: 300px;
+	height: 45px;
+	border: 1px solid #fed701;
+	background-color: #fed701;
+	border-radius: 50px;
+	top: 55%;
+	right: 42%;
+}
+
+.sous-nav-button {
+	display: flex;
+
+	position: absolute;
+	top: 75%;
+	left: 50%;
+}
+
+.cercle1 {
+	width: 25px;
+	height: 15px;
+	border: 1px solid #fed701;
+	background-color: #fed701;
+	border-radius: 20px;
+}
+
+.cercle2 {
+	width: 15px;
+	margin-left: 15px;
+	height: 15px;
+	border: 1px solid black;
+	background-color: black;
+	border-radius: 50%;
+}
+
+.cercle3 {
+	width: 15px;
+	margin-left: 15px;
+	height: 15px;
+	border: 1px solid black;
+	background-color: black;
+	border-radius: 50%;
+}
+
+.container-images {
+	height: 30vh;
 }

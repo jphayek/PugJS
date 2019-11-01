@@ -15,18 +15,26 @@ html
         link(href="style.css",rel="stylesheet",type="text/css")
     body
         nav
-            div.NavBar
-            h2.title Electro
-            h2 .
+            div.NavBar-title
+                h2.title Electro
+                h2.title-point .
             input(type="text" placeholder="recherche")
 
-        
-        div.UneClass
-            +list("hello", "World")
-            +list("glados", "wheatley")
-        div#unTag
-            +list("Un block", "qui claque")
-                button Click me
-                p Un aute
-                div 
-                    +list("Hello", "again")
+        div.container-sous-nav
+            div.sous-nav-title
+                h2.sous-nav-title2 Le Miel Libanais
+                h3.sous-nav-subtitle Le plus bon miel aux monde
+                h4.subtitle-sous-nav De
+                h4.currency-sous-nav $
+                h4.currency2-sous-nav 749
+                h4.currency3-sous-nav 99
+                button(type="submit" placeholder="Commencer a acheter") Commencer a acheter
+
+            div.sous-nav-button
+                div.cercle1
+                div.cercle2
+                div.cercle3
+
+
+        div.container-images
+            
