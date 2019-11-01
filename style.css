@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	height: 100vh;
 	font-family: sans-serif;
+	overflow-x: hidden;
 }
 
 nav {
@@ -149,8 +150,8 @@ button[type="submit"] {
 .container-1-image {
 	width: 300px;
 	height: 200px;
-	background-color: black;
-	color: white;
+	background-color: #f6f6f6;
+	color: black;
 }
 p.text1 {
 	position: relative;
@@ -196,7 +197,7 @@ p.shop-now {
 .container-2-image {
 	width: 300px;
 	height: 200px;
-	background-color: blue;
+	background-color: #f6f6f6;
 }
 .container-2-image img {
 	width: 150px;
@@ -229,7 +230,7 @@ p.currency1 {
 	height: 20px;
 	border-radius: 50px;
 	position: relative;
-	background-color: yellow;
+	background-color: #fed701;
 	bottom: 240px;
 	left: 91%;
 	font-size: 20px;
@@ -240,7 +241,7 @@ p.currency1 {
 .container-3-image {
 	width: 300px;
 	height: 200px;
-	background-color: rosybrown;
+	background-color: #f6f6f6;
 }
 .container-3-image img {
 	width: 150px;
@@ -252,7 +253,7 @@ p.currency1 {
 .container-4-image {
 	width: 300px;
 	height: 200px;
-	background-color: red;
+	background-color: #f6f6f6;
 }
 
 .container-4-image img {
