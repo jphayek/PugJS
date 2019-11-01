@@ -139,5 +139,126 @@ button[type="submit"] {
 }
 
 .container-images {
+	padding-top: 40px;
 	height: 30vh;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+}
+
+.container-1-image {
+	width: 300px;
+	height: 200px;
+	background-color: black;
+	color: white;
+}
+p.text1 {
+	position: relative;
+	left: 60%;
+	bottom: 55%;
+}
+
+b.deals {
+	position: relative;
+	left: 60%;
+	bottom: 110px;
+}
+p.text1-1 {
+	position: relative;
+	bottom: 110px;
+	left: 60%;
+}
+
+p.shop-now {
+	position: relative;
+	bottom: 75px;
+	left: 58%;
+}
+.shop {
+	width: 20px;
+	height: 20px;
+	border-radius: 50px;
+	position: relative;
+	background-color: yellow;
+	bottom: 110px;
+	left: 90%;
+	font-size: 20px;
+	color: violet;
+	text-align: center;
+}
+.container-1-image img {
+	width: 150px;
+	height: 120px;
+	position: relative;
+	left: 15px;
+	top: 15px;
+}
+.container-2-image {
+	width: 300px;
+	height: 200px;
+	background-color: blue;
+}
+.container-2-image img {
+	width: 150px;
+	height: 120px;
+	position: relative;
+	left: 15px;
+	top: 15px;
+}
+
+p.up {
+	width: 45px;
+	position: relative;
+	bottom: 100px;
+	left: 60%;
+}
+
+b.currency {
+	font-size: 40px;
+	position: relative;
+	bottom: 157px;
+	left: 70%;
+}
+p.currency1 {
+	position: relative;
+	bottom: 205px;
+	left: 85%;
+}
+.shop1 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50px;
+	position: relative;
+	background-color: yellow;
+	bottom: 240px;
+	left: 91%;
+	font-size: 20px;
+	color: violet;
+	text-align: center;
+}
+
+.container-3-image {
+	width: 300px;
+	height: 200px;
+	background-color: rosybrown;
+}
+.container-3-image img {
+	width: 150px;
+	height: 120px;
+	position: relative;
+	left: 15px;
+	top: 15px;
+}
+.container-4-image {
+	width: 300px;
+	height: 200px;
+	background-color: red;
+}
+
+.container-4-image img {
+	width: 150px;
+	height: 120px;
+	position: relative;
+	left: 15px;
+	top: 15px;
 }
