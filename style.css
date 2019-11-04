@@ -18,7 +18,7 @@ h2.title {
 nav input[type=text] {
 	width: 600px;
 	height: 35px;
-	border: 2px solid yellow;
+	border: 2px solid #fed701;
 	border-radius: 50px;
 	padding: 10px 10px 10px 10px;
 }
@@ -298,10 +298,81 @@ h3.title-container-right {
 }
 p.sauvegarder {
 	position: relative;
-	top: 30px;
+	top: 35px;
+	font-size: 20px;
 }
 b.currency-save {
 	position: relative;
 	top: 25px;
 	font-size: 35px;
+}
+p.blue-first {
+	font-size: 20px;
+	color: #0062bd;
+	position: relative;
+	bottom: 30%;
+	left: 30%;
+}
+p.currency-lasting {
+	font-size: 30px;
+	color: #ee0000;
+	position: relative;
+	bottom: 30%;
+	left: 30%;
+}
+
+p.currency-lastingg {
+	font-size: 30px;
+	color: #969696;
+	position: relative;
+	text-decoration: line-through;
+	bottom: 40.5%;
+	left: 50%;
+}
+
+.deja {
+	position: relative;
+	bottom: 45%;
+	font-size: 20px;
+	left: 10px;
+}
+
+b.six {
+	position: relative;
+	bottom: 315px;
+	font-size: 25px;
+	left: 20%;
+}
+
+.dispo {
+	position: relative;
+	bottom: 60%;
+	font-size: 20px;
+	left: 70%;
+}
+
+b.cinq {
+	position: relative;
+	bottom: 405px;
+	font-size: 25px;
+	left: 87%;
+}
+
+.loading {
+	position: relative;
+	bottom: 65%;
+	left: 3%;
+	width: 550px;
+	height: 30px;
+	background-color: #eeeeee;
+	border-radius: 50px;
+}
+
+.loading2 {
+	position: relative;
+
+	width: 100px;
+	height: 30px;
+	background-color: #fed701;
+	border-radius: 50px;
 }
