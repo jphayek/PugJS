@@ -266,7 +266,7 @@ p.currency1 {
 
 .container-right {
 	width: 600px;
-	height: 600px;
+	height: 700px;
 
 	border: 3px solid #fed701;
 	margin-left: 20px;
@@ -292,7 +292,7 @@ h3.title-container-right {
 	background-color: yellow;
 	border-radius: 50%;
 	position: relative;
-	bottom: 65%;
+	bottom: 58%;
 	left: 70%;
 	text-align: center;
 }
@@ -310,14 +310,14 @@ p.blue-first {
 	font-size: 20px;
 	color: #0062bd;
 	position: relative;
-	bottom: 30%;
+	bottom: 25%;
 	left: 30%;
 }
 p.currency-lasting {
 	font-size: 30px;
 	color: #ee0000;
 	position: relative;
-	bottom: 30%;
+	bottom: 28%;
 	left: 30%;
 }
 
@@ -326,41 +326,41 @@ p.currency-lastingg {
 	color: #969696;
 	position: relative;
 	text-decoration: line-through;
-	bottom: 40.5%;
+	bottom: 37.5%;
 	left: 50%;
 }
 
 .deja {
 	position: relative;
-	bottom: 45%;
+	bottom: 41%;
 	font-size: 20px;
-	left: 10px;
+	left: 20px;
 }
 
 b.six {
 	position: relative;
-	bottom: 315px;
+	bottom: 332px;
 	font-size: 25px;
-	left: 20%;
+	left: 22%;
 }
 
 .dispo {
 	position: relative;
-	bottom: 60%;
+	bottom: 55%;
 	font-size: 20px;
 	left: 70%;
 }
 
 b.cinq {
 	position: relative;
-	bottom: 405px;
+	bottom: 430px;
 	font-size: 25px;
 	left: 87%;
 }
 
 .loading {
 	position: relative;
-	bottom: 65%;
+	bottom: 60%;
 	left: 3%;
 	width: 550px;
 	height: 30px;
@@ -375,4 +375,88 @@ b.cinq {
 	height: 30px;
 	background-color: #fed701;
 	border-radius: 50px;
+}
+
+h2.depeche-title {
+	position: relative;
+	bottom: 415px;
+	left: 15%;
+	font-family: sans-serif;
+	color: #383838;
+}
+
+.carre1 {
+	position: relative;
+	bottom: 440px;
+	width: 55px;
+	height: 50px;
+	background-color: #e6e6e6;
+	text-align: center;
+	font-size: 30px;
+	left: 15%;
+}
+
+h3.currencyyy {
+	padding: 5px 10px 10px 10px;
+}
+
+.point {
+	position: relative;
+	bottom: 80px;
+	font-size: 30px;
+	left: 40px;
+}
+
+.carre2 {
+	position: relative;
+	bottom: 525px;
+	width: 55px;
+	height: 50px;
+	background-color: #e6e6e6;
+	text-align: center;
+	font-size: 30px;
+	left: 28%;
+}
+h3.currencyyyy {
+	padding: 5px 10px 10px 10px;
+}
+
+.pointt {
+	position: relative;
+	bottom: 80px;
+	font-size: 30px;
+	left: 40px;
+}
+
+.carre3 {
+	position: relative;
+	bottom: 610px;
+	width: 55px;
+	height: 50px;
+	background-color: #e6e6e6;
+	text-align: center;
+	font-size: 30px;
+	left: 41%;
+}
+
+h3.currencyyyyy {
+	padding: 5px 10px 10px 10px;
+}
+
+.pointtt {
+	position: relative;
+	bottom: 80px;
+	font-size: 30px;
+	left: 40px;
+}
+
+.carre4 {
+	position: relative;
+	bottom: 695px;
+	width: 55px;
+	height: 50px;
+	background-color: #e6e6e6;
+	text-align: center;
+	font-size: 30px;
+	left: 54%;
 }
