@@ -21,6 +21,7 @@ nav input[type=text] {
 	border: 2px solid #fed701;
 	border-radius: 50px;
 	padding: 10px 10px 10px 10px;
+	margin-top: 10px;
 }
 
 input[type=text]::placeholder {
@@ -41,9 +42,14 @@ h2.title-point {
 
 .container-sous-nav {
 	height: 70vh;
-	background-image: url("background.jpg");
+
 	background-color: #f7f7f7;
 	background-size: 100%;
+}
+
+.sous-nav-image img {
+	position: relative;
+	left: 60%;
 }
 
 .sous-nav-title {
@@ -53,16 +59,16 @@ h2.title-point {
 }
 h2.sous-nav-title2 {
 	font-size: 50px;
-	color: wheat;
+	color: #333e48;
 	position: relative;
-	top: 100px;
+	bottom: 250px;
 }
 
 h3.sous-nav-subtitle {
 	font-size: 30px;
-	color: wheat;
+	color: #333e48;
 	position: relative;
-	top: 190px;
+	bottom: 150px;
 	right: 390px;
 }
 
@@ -70,28 +76,32 @@ h4.subtitle-sous-nav {
 	position: relative;
 	font-size: 25px;
 	right: 59%;
-	top: 225px;
+	bottom: 100px;
+	color: #333e48;
 }
 
 h4.currency-sous-nav {
 	position: relative;
 	font-size: 35px;
 	right: 60%;
-	top: 240px;
+	bottom: 90px;
+	color: #333e48;
 }
 
 h4.currency2-sous-nav {
 	position: relative;
 	font-size: 45px;
 	right: 60%;
-	top: 250px;
+	bottom: 90px;
+	color: #333e48;
 }
 
 h4.currency3-sous-nav {
 	position: relative;
 	font-size: 35px;
 	right: 60%;
-	top: 240px;
+	bottom: 90px;
+	color: #333e48;
 }
 
 button[type="submit"] {
@@ -101,8 +111,10 @@ button[type="submit"] {
 	border: 1px solid #fed701;
 	background-color: #fed701;
 	border-radius: 50px;
-	top: 55%;
+	top: 60%;
 	right: 42%;
+	color: #333e48;
+	font-size: 15px;
 }
 
 .sous-nav-button {
@@ -125,8 +137,8 @@ button[type="submit"] {
 	width: 15px;
 	margin-left: 15px;
 	height: 15px;
-	border: 1px solid black;
-	background-color: black;
+	border: 1px solid #bcbcbc;
+	background-color: #bcbcbc;
 	border-radius: 50%;
 }
 
@@ -134,8 +146,8 @@ button[type="submit"] {
 	width: 15px;
 	margin-left: 15px;
 	height: 15px;
-	border: 1px solid black;
-	background-color: black;
+	border: 1px solid #bcbcbc;
+	background-color: #bcbcbc;
 	border-radius: 50%;
 }
 
